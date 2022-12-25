@@ -1,0 +1,116 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.cardDiv{
+   margin-top: 50px;
+   width: 3500px;
+   height: 350px;
+   border-radius: 15px;
+   border: 1px solid rgb(198, 198, 198);
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}
+img{
+    width: 100%;
+    height: 170px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+ 
+
+}
+.cardDiv:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform:scale(99.5%);
+    -webkit-transform:scale(99.5%);
+    -moz-transform:scale(99.5%);
+    -ms-transform:scale(99.5%);
+    -o-transform:scale(99.5%);
+}
+.cards{
+    width: 300px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+  
+}
+.salam{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+h4{
+    margin-top: 10px;
+    font-size: large;
+    margin-left: 15px;
+}
+p{ 
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: small;
+}
+#navtitle{
+
+    font-size: x-large;
+    font-weight: 900;
+   
+}
+.Navb{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.NavbRight{
+   margin-top: 10px;
+}
+.SearchDiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sLeft{
+    box-shadow: rgba(126, 131, 135, 0.2) 0px 8px 24px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#btnSearch{
+     width: 50px;
+     height: 50px;
+     border: none;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     background-color: rgb(255, 255, 255);
+}
+.InpSearch{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 370px;
+    height:50px ;
+    border: none;
+}
+.icon{
+    color: gray;
+}
+#region{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    box-shadow: rgba(126, 131, 135, 0.2) 0px 8px 24px;
+}
